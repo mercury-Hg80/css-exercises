@@ -1,0 +1,40 @@
+/* #FFB6C1 for pink color */
+
+.odd {
+background-color:#FFB6C1;
+
+color:black;
+
+
+}
+
+
+.even,
+.odd {
+
+    font-family: "Verdana, DejaVu Sans", sans-serif;
+
+}
+
+#bigone {
+
+    font-size: 24px;
+    background-color: #FFB6C1;
+
+
+}
+
+#greenbold {
+
+    background-color:lightgreen;
+    font-weight: 700;
+    font-size:24px;
+
+}
+
+#evenblue {
+
+    color:blue;
+    font-size:36px;
+
+}
