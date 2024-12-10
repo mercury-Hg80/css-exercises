@@ -9,7 +9,7 @@ body {
   flex-direction: column;
 }
 
-/* by setting the body to flex-direction: column, all of our stuff is based on the cross axis! */
+/* by setting the body to display:flex & flex-direction: column, all of our stuff is based on the cross axis! */
 
 img {
   width: 600px;
@@ -45,6 +45,8 @@ ul {
   gap: 16px;
 }
 
+/* by forgetting that our links were part of ul, i forgot to modify them to be flex and arrange them accordingly */
+
 .content {
   flex: 1;
   display: flex;
@@ -63,6 +65,8 @@ ul {
 .footer {
   background: #eee;
 }
+
+/* separated .footer to add color for background */
 
 
 
