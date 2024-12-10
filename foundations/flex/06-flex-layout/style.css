@@ -48,13 +48,15 @@ ul {
 /* by forgetting that our links were part of ul, i forgot to modify them to be flex and arrange them accordingly */
 
 .content {
-  flex: 1;
+  flex:1;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 16px;
 }
+
+/* enabling flex:1; allows .content to take up space as needed */
 
 .header, .footer {
   display:flex;
